@@ -1,30 +1,41 @@
 # Travel Facts
 
-A modular monolith for discovering historical travel facts.
+Discover (mostly) historical facts about certain locations.
 
-## Structure
+## Project structure
 
 ```
 travel-facts/
 ├── apps/
-│   ├── api/          # Express backend
-│   └── web/          # React frontend
+│   ├── api/
+│   └── web/
 └── packages/
-    └── shared/       # Shared TypeScript types
+    └── shared/
 ```
 
-## Getting Started
+## Some (boring) tech details
 
-### Prerequisites
+### Runs on
 
 - Node.js 18+
 - PostgreSQL
 
 ### Installation
 
+Run 
+
 ```bash
 npm install
 ```
+
+for install and 
+
+```bash
+npm run build
+```
+
+for build.
+
 
 ### Database Setup
 
@@ -51,10 +62,4 @@ Or run individually:
 ```bash
 npm run dev:api   # Backend on http://localhost:3000
 npm run dev:web   # Frontend on http://localhost:5173
-```
-
-### Build
-
-```bash
-npm run build
 ```
