@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "typescript": "^5.3.3"
+  },
+  "optionalDependencies": {
+    "@esbuild/darwin-arm64": "^0.25.10"
   }
 }
